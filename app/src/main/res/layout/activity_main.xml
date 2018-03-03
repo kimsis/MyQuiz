@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.myquiz.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F0F4C3"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/capoeira">
+        </ImageView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/Style1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/question1" />
+
+            <CheckBox
+                android:id="@+id/martial_art"
+                style="@style/Style2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/martial_arts" />
+
+            <CheckBox
+                android:id="@+id/dance"
+                style="@style/Style2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dance" />
+
+            <CheckBox
+                android:id="@+id/culture"
+                style="@style/Style2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/culture" />
+
+            <TextView
+                style="@style/Style1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/question2" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/brazil"
+                    style="@style/Style2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/brazil" />
+
+                <RadioButton
+                    style="@style/Style2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/uganda" />
+
+                <RadioButton
+                    style="@style/Style2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/portugal" />
+
+            </RadioGroup>
+
+            <TextView
+                style="@style/Style1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/question3" />
+
+            <CheckBox
+                android:id="@+id/atabaque"
+                style="@style/Style2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/atabaque" />
+
+            <CheckBox
+                android:id="@+id/didgeridoo"
+                style="@style/Style2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/didgeridoo" />
+
+            <CheckBox
+                android:id="@+id/berimbau"
+                style="@style/Style2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/berimbau" />
+
+            <TextView
+                style="@style/Style1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/question4" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/regional"
+                    style="@style/Style2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/regional" />
+
+                <RadioButton
+                    style="@style/Style2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/angola" />
+
+                <RadioButton
+                    style="@style/Style2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/benguela" />
+
+            </RadioGroup>
+
+            <TextView
+                style="@style/Style1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/question5" />
+
+            <EditText
+                android:id="@+id/answer"
+                style="@style/Style3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/answer" />
+
+            <TextView
+                style="@style/Style1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/question6" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Switch
+                    android:id="@+id/switch_button"
+                    style="@style/Style2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="SwitchChange"
+                    android:paddingEnd="8dp"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:paddingStart="8dp" />
+
+                <TextView
+                    android:id="@+id/switch_view"
+                    style="@style/Style2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/no" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:layout_weight="1"
+                android:onClick="Check"
+                android:text="@string/check" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:layout_weight="1"
+                android:onClick="Share"
+                android:text="@string/share" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

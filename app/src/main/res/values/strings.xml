@@ -1,0 +1,54 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">Capoeira Quiz</string>
+
+    <string name="question1">What is capoeira?</string>
+    <string name="martial_arts">Martial art</string>
+    <string name="culture">Culture</string>
+    <string name="dance">Dancing style</string>
+
+    <string name="question2">Where does capoeira originate from?</string>
+    <string name="brazil">Brazil</string>
+    <string name="uganda">Uganda</string>
+    <string name="portugal">Portugal</string>
+
+    <string name="question3">Which instruments are from capoeira?</string>
+    <string name="atabaque">Atabaque</string>
+    <string name="didgeridoo">Didgeridoo</string>
+    <string name="berimbau">Berimbau</string>
+
+    <string name="question4">Which is the fastest play style in capoeira?</string>
+    <string name="regional">Regional</string>
+    <string name="angola">Angola</string>
+    <string name="benguela">Benguela</string>
+
+    <string name="question5">What does \"capoeira\" mean?</string>
+    <string name="answer">Low grass</string>
+    <string name="correctAnswer">Low grass</string>
+
+    <string name="question6">Do you practice capoeira?</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+
+    <string name="check">Check</string>
+    <string name="fail_capoerist">Oh no! You didn\'t answer any of the questions correctly. Even though you are a capoerist.</string>
+    <string name="fail_non_capoerist">Oh no. You didn\'t answer any of the questions correctly. Afterall you\'re not even a capoerist.</string>
+    <string name="success_capoerist">Congratulations! You guessed <xliff:g example="1" id="score">%d</xliff:g>/5 questions! And you are a capoerist!</string>
+    <string name="success_non_capoerist">Congratulations! You guessed <xliff:g example="1" id="score">%d</xliff:g>/5 questions! Even though you are not a capoerist!</string>
+    <string name="total_success">Congratulations! You guessed all 5/5 questions!</string>
+    <string name="capoerist">And on top of that you are a capoerist!</string>
+    <string name="non_capoerist">And you are not even a capoerist. Time to become one.</string>
+    <string name="error">What? How did you menage to break my if/else wall?</string>
+
+    <string name="share">Share</string>
+    <string name="message_1">Hello, mate! I just finished this quiz and it turns out that I</string>
+    <string name="message_2_1">don\'t know anything about capoeira.</string>
+    <string name="message_2_2">know some stuff about capoeira!</string>
+    <string name="message_3_1">Even though I am a capoerist.</string>
+    <string name="message_3_2">But it is to be expected. After all I am not even a capoerist!</string>
+    <string name="message_3_3">Well it was to be expected. After all I am also a capoerist!</string>
+    <string name="message_3_4">And I am not even a capoerist.</string>
+    <string name="mail_error">just broke the if/else statement of the quiz\'s creator.</string>
+    <string name="subject">Capoeira quizz</string>
+
+</resources>
